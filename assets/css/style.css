@@ -1,0 +1,102 @@
+:root {
+  --mainColor: #ff206e;
+}
+
+.text-main {
+  color: var(--mainColor);
+}
+
+.transition-fast {
+  transition: 0.35s;
+}
+
+header {
+  background-image: url(../img/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+header a {
+  transition: color 0.8s;
+}
+
+header a:hover {
+  color: #fff;
+}
+
+.social-media i {
+  border: 1px solid #333;
+  padding: 8px;
+  transition: color 0.8s, border-color 0.8s;
+  cursor: pointer;
+}
+
+.social-media i:hover {
+  color: var(--mainColor);
+  border-color: #fff;
+}
+
+/* about section */
+
+.title h2 {
+  font-size: 90px;
+  color: #f1f1f1;
+}
+
+.title h3 {
+  left: 50%;
+  font-size: 45px;
+  letter-spacing: 3px;
+}
+
+/* services section */
+
+.services {
+  background-image: url(../img/dark_dot.jpg);
+}
+
+.services .title h2 {
+  color: #222;
+}
+
+.services .title h3 {
+  color: #fff;
+}
+
+.service i {
+  color: #fff;
+  transition: color 0.8s;
+}
+
+.service i:hover {
+  color: var(--mainColor);
+  cursor: pointer;
+}
+
+/* start portfolio */
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: var(--mainColor);
+}
+
+.nav-item .nav-link {
+  color: #222;
+}
+
+/* start footer */
+
+footer :is(p, a) {
+  color: #eee;
+}
+
+footer ul li {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+footer ul li:hover a {
+  color: var(--mainColor);
+}
+/* end footer */
